@@ -27,7 +27,7 @@
   <div class="container-fluid">
     <div class="sign-form">
       <div class="form-header">
-        <h3>Sign Up</h3>
+        <h3 id="form-title">Sign Up</h3>
       <span>sign up with social platforms</span>
       <div>
         <a href="#" class="fa fa-facebook"></a>
@@ -63,27 +63,26 @@
           <span class="already-have-account">Already Have an account?<a href="#"> Login</a></span>
         </div>
         </form>
+        <form id="sign-in-form">
+          <span id="email-message">or use your email to sign up:</span>
+          <div>
+            <input type="email" placeholder="E-MAIL">
+          </div>
+
+          <div>
+            <input type="password" placeholder="PASSWORD">
+          </div>
+        <div>
+          <p class="forgot-password-message">
+            <a href="#">Forgot Your Password?</a>
+          </p>
+          <input type="submit" class="submit-btn" value="SIGN IN">
+        </div>
+        </form>
       </div>
   
     </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -111,6 +110,8 @@
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
   </script>
+
+  <script src="JS/auth.js"></script>
 
 </body>
 </html>

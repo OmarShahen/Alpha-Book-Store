@@ -43,6 +43,7 @@ input{
 }
 input:focus{
     outline: none;
+    color: #000;
 }
 .agreements{
     padding: 1rem;
@@ -88,8 +89,28 @@ input[type="submit"]{
 }
 .fa:hover{
     opacity: 0.7;
+    text-decoration: none;
 }
 
+
+/* Sign In Form*/
+#sign-in-form{
+    display: none;
+}
+.forgot-password-message{
+    font-size: 1rem;
+    padding: 2rem 0 0rem 0;
+}
+.forgot-password-message a{
+    color: #000;   
+}
+.forgot-password-message a:hover{
+    color: #41A7F2;   
+}
+#sign-in-form input[type="submit"]{
+    width: 257px;
+    height: 48px;
+}
 
 
 
