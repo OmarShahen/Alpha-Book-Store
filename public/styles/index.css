@@ -6,7 +6,7 @@
 }
 .form-header{
     text-align: center;
-    height: 200px;
+    height: 220px;
     background-color: #41A7F2;
     color: white;
     padding-top: 3rem;
@@ -17,6 +17,7 @@
 }
 .sign-form span{
     font-weight: normal;
+    margin-top: 1rem;
 }
 #email-message{
     font-size: 0.8rem;
@@ -70,3 +71,44 @@ input[type="submit"]{
 .already-have-account a{
     font-weight: bold;
 }
+
+/* Icons Styles*/
+.fa{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2rem 1rem;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #fff;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
