@@ -1,0 +1,72 @@
+.container-fluid{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+}
+.form-header{
+    text-align: center;
+    height: 200px;
+    background-color: #41A7F2;
+    color: white;
+    padding-top: 3rem;
+}
+.sign-form h3{
+    font-weight: normal;
+    font-size: 2rem;
+}
+.sign-form span{
+    font-weight: normal;
+}
+#email-message{
+    font-size: 0.8rem;
+    color: #898989;
+    font-weight: lighter;
+    display: block;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+input{
+    background-color: #F2F2F2;
+    color: #939393;
+    border: 0;
+    border-radius: 20px;
+    margin: 0.5rem 1rem;
+    font-weight: normal;
+    font-size: 13px;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    width: 257px;
+    height: 48px;
+}
+input:focus{
+    outline: none;
+}
+.agreements{
+    padding: 1rem;
+    color: #939393;
+    font-size: 0.7rem;
+}
+.agreements span span{
+    color: #41A7F2;
+    font-weight: bold;
+}
+
+input[type="submit"]{
+    background-color: #41A7F2;
+    color: #fff;
+    font-weight: bold;
+    width: 112px;
+    height: 34px;
+    padding: 0;
+    font-size: 0.8rem;
+}
+
+.already-have-account{
+    font-size: 0.7rem;
+    color: #ABAFAE;
+}
+.already-have-account a{
+    font-weight: bold;
+}
