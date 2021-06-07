@@ -112,7 +112,10 @@ input[type="submit"]{
     height: 48px;
 }
 
-
+.confirm-password-error, .email-error{
+    font-size: 0.6rem;
+    display: none;
+}
 
 
 

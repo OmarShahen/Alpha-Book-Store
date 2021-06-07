@@ -39,27 +39,29 @@
         <form id="sign-up-form">
           <span id="email-message">or use your email to sign up:</span>
           <div>
-            <input type="text" placeholder="USER NAME">
+            <input type="text" id="userName" placeholder="USER NAME">
           </div>
 
           <div>
-            <input type="email" placeholder="E-MAIL">
+            <span class="text-danger email-error"></span>
+            <input type="email" id="userEmail" placeholder="E-MAIL">
           </div>
 
           <div>
-            <input type="password" placeholder="PASSWORD">
+            <input type="password" id="userPassword" placeholder="PASSWORD">
           </div>
           <div>
-            <input type="password" placeholder="CONFIRM-PASSWORD">
+            <span class="text-danger confirm-password-error">The passwords are not the same</span>
+            <input type="password" id="confirmUserPassword" placeholder="CONFIRM-PASSWORD">
           </div>
           <div>
-            <input type="text" placeholder="PHONE NUMBER">
+            <input type="text" id="userPhoneNumber" placeholder="PHONE NUMBER">
           </div>
         <div class="agreements">
           <span>I agree all statements in <span>Terms & Conditions</span></span>
         </div>
         <div>
-          <input type="submit" class="submit-btn" value="SIGN UP">
+          <input type="submit" class="submit-btn sign-up-btn" value="SIGN UP">
           <span class="already-have-account">Already Have an account?<a href="#"> Login</a></span>
         </div>
         </form>
@@ -89,6 +91,7 @@
 
   <!-- The core Firebase JS SDK is always required and must be listed first -->
   <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
 
   <!-- TODO: Add SDKs for Firebase products that you want to use
       https://firebase.google.com/docs/web/setup#available-libraries -->
@@ -109,6 +112,9 @@
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
+
+    const auth = firebase.auth();
+
   </script>
 
   <script src="JS/auth.js"></script>
