@@ -11,11 +11,16 @@ document.querySelector("#userEmail").addEventListener("focus", ()=>{
     document.querySelector(".email-error").style.display="none";
 });
 
+//Login form link
+document.querySelector("#signin-link").addEventListener("click", (e)=>{
+    e.preventDefault();
+    signIn();
+});
 
 
 
+// Add user
 const signUpForm = document.querySelector("#sign-up-form");
-
 
 signUpForm.addEventListener("submit", (e)=>{
 
